@@ -1,1 +1,2 @@
 https://stackoverflow.com/questions/37340129/tensorflow-training-on-my-own-image
+http://www.wolfib.com/Image-Recognition-Intro-Part-1/
