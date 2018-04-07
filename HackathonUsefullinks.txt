@@ -1,0 +1,1 @@
+https://stackoverflow.com/questions/37340129/tensorflow-training-on-my-own-image
