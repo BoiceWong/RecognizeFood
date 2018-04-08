@@ -1,3 +1,5 @@
 https://stackoverflow.com/questions/37340129/tensorflow-training-on-my-own-image #Image training
 http://www.wolfib.com/Image-Recognition-Intro-Part-1/ #general image recognition
 https://www.youtube.com/watch?v=QfNvhPx5Px8 #Tensorflow tutorial docker
+https://codelabs.developers.google.com/codelabs/tensorflow-for-poets/?utm_campaign=chrome_series_machinelearning_063016&utm_source=gdev&utm_medium=yt-desc#1 
+#big help^
