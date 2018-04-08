@@ -1,4 +1,4 @@
 
 
-path1 = "C:/Users/Boice Wong/Documents/SunHacks/RecognizeFood/sunhack.py"
+path1 = "C:\Users\Perot\Documents\SunHacks\FoodRecognition/sunhack.py"
 exec(open(path1).read())
