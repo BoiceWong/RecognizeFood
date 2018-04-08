@@ -2,7 +2,7 @@ from Tkinter import *
 
 window = Tk()
 
-# Labels & Entries
+# Labels
 label = Label(window, text = "Food!!!", bg = "red", fg = "yellow")
 label.pack(fill = X) #just pack the label in the window somewhere, adapts to window size in x direction
 label2 = Label(window, text = "Food weight", bg = "orange", fg = "blue")
@@ -22,7 +22,7 @@ bottomFrame = Frame(window)
 bottomFrame.pack(side = BOTTOM) # apparently no CENTER side
 
 # Buttons
-button1 = Button(topFrame, text = "Click me pls", bg = "red", fg = "white") # fg is optional
+button1 = Button(topFrame, text = "Click me pls", bg = "red", fg = "white") # bg = background, fg = foreground, idk why colors are not working
 button2 = Button(middleFrame, text = "Click me too", bg = "blue", fg = "white")
 button3 = Button(middleFrame, text = "Click me as well", bg = "green", fg = "white")
 button4 = Button(bottomFrame, text = "Click me!", bg = "orange", fg = "white")
