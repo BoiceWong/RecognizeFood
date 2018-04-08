@@ -7,9 +7,9 @@
 #// Chewy peanut butter choco chip - 100 calories 
 #// make a list with a bunch of local variables 
 # string name = "Steak";
-String sirloinSteak = "280.08"
+String steak = "280.08"
 String macNcheese = "219.0"
-String blueDoritos = "150"
-String gourmetPopcorn = "70"
-String chewBar = "100"
+String pizza = "258"
+String spaghetti = "221"
+String chicken = "335"
 
