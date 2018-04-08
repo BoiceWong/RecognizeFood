@@ -19,31 +19,42 @@ cal = 0.0
 
 fooditem = ""
 
-path = "C:/Users/Boice Wong/Documents/SunHacks/TryTwo/tensorflow-for-poets-2/resultText.txt"
+path = "C:/Users/Perot/Desktop/PythFile/steak-tensor/resultText.txt"
 file = open(path, 'r')
 fooditem = "" + file.read()  # this is
+
+
+def string2list(string):
+    string = string.strip()
+    string = string[0:len(string) - 1].split(" ")
+    return string
+
+
+converted = string2list(fooditem)
+fooditem = converted[0]
 
 # method for converting the string of numbers into a list of numbers as strings
 
 if(fooditem == 'steak'):
-    amount = raw_input("How many ounces of steak did you eat? ")
+    amount = input("How many ounces of steak did you eat? ")
+    print('i')
     cal = steak * amount
 elif(fooditem == 'macandcheese'):
-    amount = raw_input("How many bowls of Mac and Cheese did you eat? ")
+    amount = input("How many bowls of Mac and Cheese did you eat? ")
     cal = macNcheese * amount
 elif(fooditem == 'pizza'):
-    amount = raw_input("How many slices of pizza did you eat? ")
+    amount = input("How many slices of pizza did you eat? ")
     cal = pizza * amount
 elif(fooditem == 'spaghetti'):
-    amount = raw_input("How many plates of spaghetti did you eat? ")
+    amount = input("How many plates of spaghetti did you eat? ")
+    print('i')
     cal = spaghetti * amount
 elif(fooditem == 'chicken'):
-    amount = raw_input("How many ounces of chicken did you eat? ")
+    amount = input("How many ounces of chicken did you eat? ")
     cal = chicken * amount
 else:
     amount = 0
     cal = 0
-
 
 '''def string2list(string):
     string = string.strip()
